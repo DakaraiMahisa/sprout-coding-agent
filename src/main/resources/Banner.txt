@@ -1,0 +1,15 @@
+${AnsiStyle.BOLD}${AnsiColor.CYAN}
+   _____                        __
+  / ___/____  _________  __  __/ /_
+  \__ \/ __ \/ ___/ __ \/ / / / __/
+ ___/ / /_/ / /  / /_/ / /_/ / /_
+/____/ .___/_/   \____/\__,_/\__/
+    /_/
+${AnsiColor.GREEN}
+${application.title} ${application.version}
+Powered by Spring Boot ${spring-boot.version}
+
+${AnsiColor.YELLOW}
+Started Successfully
+
+${AnsiStyle.NORMAL}${AnsiColor.DEFAULT}

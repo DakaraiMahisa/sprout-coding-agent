@@ -1,3 +1,16 @@
 spring:
   application:
     name: sprout
+  ai:
+    google:
+      genai:
+        api-key: ${GEMINI_API_KEY}
+        chat:
+          model: gemini-3.5-flash
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+  pattern:
+    console: "${CONSOLE_LOG_PATTERN:%green(%d{HH:mm:ss.SSS}) %blue(%-5level) %red([%thread]) %yellow(%logger{15}) - %cyan(%msg%n)}"
